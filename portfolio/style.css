@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f7fc;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+    color:white;
+}
+
+header img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid white;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+/* Sections */
+
+section{
+    width:80%;
+    margin:40px auto;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#764ba2;
+    font-size:32px;
+}
+
+/* About */
+
+.about{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+/* Skills */
+
+.skills{
+    text-align:center;
+}
+
+.skill-box{
+    display:inline-block;
+    background:#764ba2;
+    color:white;
+    padding:12px 20px;
+    margin:10px;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+/* Projects */
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.projects h2{
+    width:100%;
+}
+
+.card{
+    width:300px;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#764ba2;
+    margin-bottom:10px;
+}
+
+/* Contact */
+
+.contact{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    background:#222;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:16px;
+    margin-top:15px;
+}
+
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark .about,
+.dark .contact,
+.dark .card{
+    background:#1e1e1e;
+    color:white;
+}
